@@ -1,0 +1,22 @@
+/* Styles for the footer */
+.footer {
+    background-color: #6A0DAD; /* Set background color to purple */
+    color: white; /* Set text color to white */
+    padding: 20px; /* Add padding to the footer */
+    text-align: center; /* Align text to the center */
+    position: fixed; /* Fix the footer to the bottom of the page */
+    left: 0; /* Position the footer on the left side */
+    bottom: 0; /* Position the footer at the bottom of the page */
+    width: 100%; /* Set the width to 100% */
+}
+
+/* Add additional styling for links inside the footer */
+.footer a {
+    color: white; /* Set link text color to white */
+    text-decoration: none; /* Remove default underline */
+}
+
+/* Change link color on hover */
+.footer a:hover {
+    color: #ddd; /* Change link color on hover */
+}

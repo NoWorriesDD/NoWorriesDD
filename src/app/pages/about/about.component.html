@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team and Project Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000; /* Black background color */
+            margin: 0;
+            padding: 0;
+            color: #ffffff; /* White text color */
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        .team {
+            flex: 1;
+            padding-right: 20px;
+        }
+
+        .team-member {
+            margin-bottom: 20px;
+            text-align: center;
+            transition: transform 0.3s ease; /* Adding transition for animation */
+        }
+
+        .team-member:hover {
+            transform: translateY(-5px); /* Move element up on hover */
+        }
+
+        .team-member h3 {
+            margin-bottom: 5px;
+        }
+
+        .team-member p {
+            margin-bottom: 10px;
+            transition: color 0.3s ease; /* Adding transition for animation */
+        }
+
+        .team-member p:hover {
+            color: #1e70bf; /* Change color on hover */
+        }
+
+        .team-member a {
+            color: #4b8cfb;
+            text-decoration: none;
+            transition: color 0.3s ease; /* Adding transition for animation */
+        }
+
+        .team-member a:hover {
+            color: #1e70bf; /* Change color on hover */
+        }
+
+        .project-details {
+            flex: 1;
+            padding-left: 20px;
+        }
+
+        .project-details h2 {
+            margin-bottom: 20px;
+        }
+
+        .project-details p {
+            transition: color 0.3s ease; /* Adding transition for animation */
+        }
+
+        .project-details p:hover {
+            color: #1e70bf; /* Change color on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="team">
+
+            <div class="team-member">
+                <h3>Shakib Al hasan</h3>
+                <p>Project Manager</p>
+                <a href="https://github.com/shakib2412">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+           
+            <div class="team-member">
+                <h3>Dantha Ekenayake</h3>
+                <p>Web Developer</p>
+                <a href="https://github.com/danthaekenayake/danthaekenayake">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+            
+            <div class="team-member">
+                <h3>Tanzid Ahmed</h3>
+                <p>Data Analyst</p>
+                <a href="https://github.com/tanzidnobo">
+                 <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+
+            <div class="team-member">
+                <h3>Afrin Sultana</h3>
+                <p>Project Architect</p>
+                <a href="https://github.com/mstafrinsultana">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+            
+            
+        </div>
+        <div class="project-details">
+            <h2>About Our Project</h2>
+            <p>Our team embarked on a comprehensive analysis of Yelp data, delving into various facets of user behavior, merchant trends, and review dynamics to unveil insightful patterns and trends. Leveraging advanced data analysis techniques, we meticulously dissected the dataset to extract valuable insights, enabling businesses to make informed decisions.</p>
+            <p>Our team implemented sentiment analysis for reviews by leveraging techniques. We utilized big data models to analyze the sentiment of user reviews, extracting key sentiments such as positive, negative, or neutral. By processing the text of reviews, we quantified the overall sentiment of each review, enabling users to gauge the general sentiment towards a merchant. This allowed us to generate concise summaries of reviews, providing users with valuable insights into customer experiences</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with Background Image</title>
+    <style>
+        body {
+            background-image: url(https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            height: 100vh; /* Make the background cover the entire viewport height */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            display: flex; /* Use flexbox to center items */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            flex-direction: column; /* Arrange items vertically */
+        }
+
+        /* Additional styles for content */
+        .content {
+            text-align: center;
+            color: white;
+        }
+
+        .signup-btn {
+            margin-top: 20px; /* Add space between h1 and button */
+            padding: 10px 20px; /* Adjust padding as needed */
+            background-color: #05db0d; /* Green background */
+            color: white; /* White text */
+            border: none; /* No border */
+            border-radius: 8px; /* Rounded corners */
+            cursor: pointer; /* Add cursor on hover */
+            font-size: 16px; /* Font size */
+        }
+
+        .signup-btn:hover {
+            background-color: #07f10b; /* Darker green background on hover */
+        }
+
+        .registration-form {
+            display: none; /* Hide the registration form by default */
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1 style="font-size: 80px; font-weight: bold; margin-top: -50px;">Dive into the World of Big Data.</h1>
+        <button class="signup-btn" onclick="showRegistrationForm()">Sign Up</button>
+        <form class="registration-form" id="registrationForm">
+            <h2>Registration Form</h2>
+            <input type="text" placeholder="Username">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <script>
+        function showRegistrationForm() {
+            var form = document.querySelector(".registration-form");
+            form.style.display = "block"; // Show the registration form
+        }
+    </script>
+</body>
+</html>
