@@ -1,0 +1,22 @@
+/* Style for the navigation bar */
+.navbar {
+    background-color: #6A0DAD; /* Purple color */
+    padding: 20px 10px; /* Adjust padding as needed */
+    /* Other styles */
+}
+
+/* Style for the links inside the navigation bar */
+.navbar a {
+    float: left;
+    display: block;
+    color: white; /* Set text color to white */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #fbeb04;
+    color: black;
+}
